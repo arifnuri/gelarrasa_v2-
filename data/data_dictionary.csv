@@ -1,0 +1,32 @@
+kolom,keterangan
+pm25..no2,"Konsentrasi polutan, SELURUHNYA dalam ug/m3 (gas ppm sudah dikonversi)"
+co,Karbon monoksida (ug/m3)
+temperature_c / humidity_pct,Suhu (C) dan kelembapan relatif (%)
+wind_speed_ms / wind_direction_deg,"Kecepatan angin (m/s) dan arah asal angin (derajat, rata-rata sirkular)"
+hour,"Awal jam pengukuran (WIB sesuai dokumen), sudah dibulatkan ke jam"
+n_rows,Jumlah pembacaan mentah yang diterima dalam jam tsb (0 = tidak ada data lolos)
+pm_from_ppm,True = PM berasal dari ppm dan dikonversi dengan faktor ASUMSI (jangan dipakai untuk peringkat absolut)
+island,"Pulau/kelompok pulau, dipetakan dari provinsi"
+pm25 (harian),"Rata-rata 24 jam, hanya jika >= 18 jam data valid, selain itu kosong"
+pm25_max_1h,Nilai maksimum PM2.5 per jam dalam hari tsb
+n_hours_pm25,Jumlah jam PM2.5 valid dalam hari tsb
+resp_admissions_under5 dst.,Kasus kesehatan harian dari HLT-01 (tanpa imputasi)
+time_idx,Nomor hari dihitung ulang dari tanggal (kolom `time` asli tidak konsisten di sebagian RS)
+status (audit),OK / CAUTION / EXCLUDED berdasarkan cakupan PM2.5
+resp_admissions_over60,Jumlah rawat inap akibat gangguan pernapasan (ISPA) pada lansia > 60 tahun (info panitia)
+resp_admissions_under5,Rawat inap gangguan pernapasan pada anak < 5 tahun (arti dari nama kolom; definisi rinci belum dikonfirmasi)
+asthma_emergency_cases / copd_admissions,Kasus gawat darurat asma / rawat inap PPOK (arti dari nama kolom)
+resp / cvd / death,Total kasus pernapasan / kardiovaskular / kematian (arti dari nama kolom; definisi rinci belum dikonfirmasi)
+dow / is_weekend / month / year,"Nama hari, penanda akhir pekan (Sabtu-Minggu), bulan, dan tahun dari tanggal/jam"
+days_valid_pm25 / _so2 / _no2,Jumlah hari dengan rata-rata 24 jam valid (>= MIN_HOURS_PER_DAY jam) per stasiun (audit: seluruh periode; IKU: per tahun)
+coverage_days_*,Hari valid dibagi jumlah hari dalam periode
+iku_eligible,True bila hari valid SO2 dan NO2 >= 80% hari tahun itu (syarat AQMS stasiun tetap)
+so2_annual / no2_annual,Rata-rata tahunan dari rata-rata harian valid (ug/m3)
+ieu,"Indeks udara model EU = 0,5 x SO2/acuan + 0,5 x NO2/acuan"
+iku_raw / iku,"IKU = 100 - (50/0,9) x (Ieu - 0,1). iku dipotong ke 0-100 (IKU_CLIP) dan hanya terisi bila layak. ESTIMASI dari AQMS, bukan IKU resmi passive sampler"
+iku_sens_0C,"IKU bila acuan konsentrasi pada 0 C (ug/Nm3), uji sensitivitas"
+frozen,"True = jam dikosongkan karena nilai beku (sensor macet): nilai identik >= FROZEN_MIN_RUN jam di >= FROZEN_MIN_VARS polutan, walau flag VALID"
+pm25_overrange,True = jam berkode 999 (PM melewati rentang) yang dikosongkan; hanya dipetakan untuk SUSPECT_ACCEPT_STATIONS. PM2.5 jam itu kosong tetapi kemungkinan sangat tinggi
+pm25_overrange_hours / pm25_lower_bound,Jumlah jam 999 pada hari tsb / True bila rata-rata PM2.5 harian harus dibaca sebagai BATAS BAWAH
+frozen_hours / suspect_accepted / overrange_hours (audit),"Jumlah jam beku dikosongkan / baris SUSPECT non-999 diterima / jam kode 999 dikosongkan, per stasiun"
+full_year (iku_city_year),"True bila semua stasiun-tahun penyusun mencakup satu tahun penuh; False = tahun parsial (mis. 2026 s.d. 14 Okt), jangan dibandingkan langsung dengan tahun penuh"

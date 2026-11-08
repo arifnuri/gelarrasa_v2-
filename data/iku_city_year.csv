@@ -1,0 +1,68 @@
+provinsi,kota_kabupaten,year,n_stasiun,so2_annual,no2_annual,full_year,ieu,iku_raw,iku,iku_sens_0C
+Aceh,Kabupaten Aceh Besar,2024,1,4.510,10.970,True,0.250,91.674,91.674,90.403
+Aceh,Kabupaten Aceh Besar,2025,1,4.498,10.977,True,0.250,91.686,91.686,90.416
+Aceh,Kabupaten Aceh Besar,2026,1,4.506,10.962,False,0.250,91.685,91.685,90.416
+Bengkulu,Kota Bengkulu,2024,1,7.031,19.845,True,0.424,82.009,82.009,79.854
+Bengkulu,Kota Bengkulu,2025,1,7.019,19.804,True,0.423,82.054,82.054,79.903
+Bengkulu,Kota Bengkulu,2026,1,7.034,19.778,False,0.423,82.051,82.051,79.899
+D.I. Yogyakarta,Kabupaten Sleman,2024,1,10.048,27.289,True,0.592,72.649,72.649,69.637
+D.I. Yogyakarta,Kabupaten Sleman,2025,1,10.070,27.287,True,0.593,72.621,72.621,69.606
+D.I. Yogyakarta,Kabupaten Sleman,2026,1,10.063,27.322,False,0.593,72.605,72.605,69.589
+DKI Jakarta,Kota Administrasi Jakarta Barat,2024,1,21.991,60.080,True,1.301,33.290,33.290,26.676
+DKI Jakarta,Kota Administrasi Jakarta Barat,2025,1,21.985,59.931,True,1.299,33.403,33.403,26.799
+DKI Jakarta,Kota Administrasi Jakarta Barat,2026,1,22.088,60.050,False,1.303,33.176,33.176,26.552
+DKI Jakarta,Kota Administrasi Jakarta Pusat,2024,1,20.004,55.951,True,1.199,38.917,38.917,32.818
+DKI Jakarta,Kota Administrasi Jakarta Pusat,2025,1,20.008,56.017,True,1.200,38.866,38.866,32.762
+DKI Jakarta,Kota Administrasi Jakarta Pusat,2026,1,20.043,56.075,False,1.202,38.777,38.777,32.665
+DKI Jakarta,Kota Administrasi Jakarta Utara,2024,1,32.021,61.991,True,1.575,18.033,18.033,10.023
+DKI Jakarta,Kota Administrasi Jakarta Utara,2025,1,32.007,61.900,True,1.574,18.114,18.114,10.111
+DKI Jakarta,Kota Administrasi Jakarta Utara,2026,1,31.916,62.081,False,1.574,18.116,18.116,10.113
+Jambi,Kota Jambi,2024,1,7.037,19.782,True,0.423,82.044,82.044,79.893
+Jambi,Kota Jambi,2025,1,7.046,19.801,True,0.424,82.020,82.020,79.865
+Jambi,Kota Jambi,2026,1,7.047,19.811,False,0.424,82.010,82.010,79.855
+Jawa Barat,Kabupaten Bogor,2024,1,7.498,19.959,True,0.437,81.281,81.281,79.059
+Jawa Barat,Kabupaten Bogor,2025,1,7.469,20.057,True,0.437,81.254,81.254,79.030
+Jawa Barat,Kabupaten Bogor,2026,1,7.493,19.962,False,0.437,81.285,81.285,79.064
+Jawa Barat,Kota Bogor,2024,1,7.527,20.009,True,0.438,81.207,81.207,78.978
+Jawa Barat,Kota Bogor,2025,1,7.518,20.023,True,0.438,81.209,81.209,78.980
+Jawa Barat,Kota Bogor,2026,1,7.469,19.961,False,0.436,81.320,81.320,79.101
+Jawa Timur,Kabupaten Malang,2024,1,7.042,19.823,True,0.424,82.009,82.009,79.854
+Jawa Timur,Kabupaten Malang,2025,1,7.049,19.819,True,0.424,82.002,82.002,79.846
+Jawa Timur,Kabupaten Malang,2026,1,7.050,19.819,False,0.424,82.001,82.001,79.845
+Kalimantan Barat,Kabupaten Sintang,2024,1,7.036,19.822,True,0.424,82.018,82.018,79.864
+Kalimantan Barat,Kabupaten Sintang,2025,1,7.042,19.801,True,0.424,82.024,82.024,79.871
+Kalimantan Barat,Kabupaten Sintang,2026,1,7.042,19.797,False,0.424,82.027,82.027,79.874
+Kalimantan Selatan,Kota Banjarbaru,2026,1,7.889,31.141,False,0.586,72.972,72.972,69.990
+Kalimantan Tengah,Kabupaten Kotawaringin Barat,2024,1,7.043,19.778,True,0.423,82.039,82.039,79.886
+Kalimantan Tengah,Kabupaten Kotawaringin Barat,2025,1,7.032,19.781,True,0.423,82.053,82.053,79.901
+Kalimantan Tengah,Kabupaten Kotawaringin Barat,2026,1,7.032,19.806,False,0.423,82.034,82.034,79.881
+Kalimantan Tengah,Kabupaten Kotawaringin Timur,2024,1,11.045,22.011,True,0.551,74.930,74.930,72.127
+Kalimantan Tengah,Kabupaten Kotawaringin Timur,2025,1,10.997,22.002,True,0.550,75.002,75.002,72.206
+Kalimantan Tengah,Kabupaten Kotawaringin Timur,2026,1,10.964,22.005,False,0.549,75.046,75.046,72.254
+Kalimantan Tengah,Kota Palangka Raya,2024,1,11.021,21.949,True,0.550,75.007,75.007,72.211
+Kalimantan Tengah,Kota Palangka Raya,2025,1,10.994,21.976,True,0.550,75.025,75.025,72.230
+Kalimantan Tengah,Kota Palangka Raya,2026,1,11.008,21.921,False,0.549,75.045,75.045,72.252
+Kalimantan Timur,Kota Samarinda,2024,1,11.751,25.019,True,0.607,71.861,71.861,68.777
+Kalimantan Timur,Kota Samarinda,2025,1,12.005,25.033,True,0.613,71.498,71.498,68.381
+Kalimantan Timur,Kota Samarinda,2026,1,12.756,24.924,False,0.630,70.531,70.531,67.325
+Kepulauan Riau,Kota Batam,2024,1,7.046,19.762,True,0.423,82.046,82.046,79.894
+Kepulauan Riau,Kota Batam,2025,1,7.038,19.781,True,0.423,82.043,82.043,79.891
+Kepulauan Riau,Kota Batam,2026,1,7.040,19.822,False,0.424,82.012,82.012,79.858
+Lampung,Kabupaten Pesawaran,2024,1,7.512,20.698,True,0.447,80.749,80.749,78.478
+Lampung,Kabupaten Pesawaran,2025,1,7.492,20.729,True,0.446,80.754,80.754,78.484
+Lampung,Kabupaten Pesawaran,2026,1,7.505,20.739,False,0.447,80.730,80.730,78.458
+Papua Barat Daya,Kota Sorong,2024,1,7.030,19.774,True,0.423,82.059,82.059,79.909
+Papua Barat Daya,Kota Sorong,2025,1,7.039,19.812,True,0.424,82.021,82.021,79.867
+Papua Barat Daya,Kota Sorong,2026,1,7.036,19.791,False,0.423,82.040,82.040,79.888
+Riau,Kota Pekanbaru,2024,1,7.028,19.803,True,0.423,82.043,82.043,79.891
+Riau,Kota Pekanbaru,2025,1,7.025,19.808,True,0.423,82.042,82.042,79.890
+Riau,Kota Pekanbaru,2026,1,7.043,19.803,False,0.424,82.021,82.021,79.867
+Sulawesi Selatan,Kabupaten Maros,2024,1,7.041,19.796,True,0.423,82.030,82.030,79.877
+Sulawesi Selatan,Kabupaten Maros,2025,1,7.041,19.810,True,0.424,82.020,82.020,79.866
+Sulawesi Selatan,Kabupaten Maros,2026,1,7.030,19.777,False,0.423,82.058,82.058,79.907
+Sulawesi Tengah,Kabupaten Poso,2024,1,7.056,19.776,True,0.424,82.022,82.022,79.868
+Sulawesi Tengah,Kabupaten Poso,2025,1,7.045,19.839,True,0.424,81.993,81.993,79.837
+Sulawesi Tengah,Kabupaten Poso,2026,1,7.033,19.820,False,0.424,82.024,82.024,79.870
+Sumatera Barat,Kabupaten Agam,2024,1,7.024,19.820,True,0.423,82.037,82.037,79.884
+Sumatera Barat,Kabupaten Agam,2025,1,7.040,19.808,True,0.424,82.023,82.023,79.869
+Sumatera Barat,Kabupaten Agam,2026,1,7.024,19.770,False,0.423,82.070,82.070,79.921

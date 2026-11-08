@@ -1,0 +1,78 @@
+/* Clean Human-Crafted Light Theme CSS (Untitled UI & Ant Design inspired) */
+
+:root {
+  --bg-primary: #FFFFFF;
+  --bg-secondary: #F8FAFC;
+  --border-subtle: #E2E8F0;
+  --text-main: #0F172A;
+  --text-muted: #64748B;
+  --accent-emerald: #10B981;
+  --accent-blue: #2563EB;
+}
+
+body {
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* Nav Item States */
+.nav-item {
+  transition: all 0.15s ease-in-out;
+}
+.nav-item.active {
+  background-color: #F1F5F9;
+  border: 1px solid #E2E8F0;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+}
+
+/* Diurnal Matrix Heatmap */
+.heatmap-cell {
+  width: 100%;
+  height: 18px;
+  border-radius: 3px;
+  transition: transform 0.1s ease;
+  cursor: pointer;
+}
+.heatmap-cell:hover {
+  transform: scale(1.18);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  z-index: 10;
+  position: relative;
+}
+
+/* Leaflet Clean White Overrides */
+.leaflet-popup-content-wrapper {
+  background: #FFFFFF !important;
+  color: #0F172A !important;
+  border-radius: 12px !important;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+  border: 1px solid #E2E8F0 !important;
+  padding: 4px !important;
+  font-family: 'Inter', sans-serif !important;
+}
+.leaflet-popup-tip {
+  background: #FFFFFF !important;
+}
+
+/* Clean UI elevation */
+.shadow-xs {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.03);
+}
+.shadow-2xs {
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.02);
+}
